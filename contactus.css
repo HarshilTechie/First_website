@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  header {
+    background-color: #002147;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  .contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-form h2 {
+    margin-bottom: 1rem;
+    color: #002147;
+  }
+  
+  .contact-form label {
+    display: block;
+    margin-top: 1rem;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .contact-form button {
+    margin-top: 1rem;
+    background-color: #002147;
+    color: white;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .contact-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #002147;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  #responseMessage {
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: green;
+    text-align: center;
+  }
+  

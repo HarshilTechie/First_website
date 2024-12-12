@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    width: 100%;
+}
+
+header {
+    background-color: #4CAF50;
+    color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    padding: 1rem;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem;
+    gap: 1rem;
+}
+
+.products {
+    flex: 2;
+    background: white;
+    border-radius: 5px;
+    padding: 1rem;
+    box-shadow: 0 2px 8px rgba(5, 219, 51, 0.847);
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.product-card {
+    flex: 1 1 calc(33.333% - 1rem);
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.product-card img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.sharemarket {
+    flex: 1;
+    background: white;
+    border-radius: 5px;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.market-info p {
+    margin: 0.5rem 0;
+    font font-family: Arial;
+    flex: 1;
+    background: white;
+    border-radius: 5px;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #4CAF50;
+    color: white;
+    bottom: 0;
+    width: 100%;
+}
